@@ -219,8 +219,8 @@ var vowelTester3 = "challenge"
 const vowelFinder = (string) => {
   let vowelArray = string.split("")
   for(let i = 0; i < vowelArray.length; i++){
-    if(vowelArray === ['a','e','i','o','u']){
-      return vowelArray(i)
+    if(vowelArray[i] === ['a','e','i','o','u']){
+      return vowelArray.indexOf(i)
     }}
 }
 
